@@ -1,0 +1,62 @@
+.weather-component {
+    width: 500px;
+    border: 1px solid cornsilk;
+    margin: 3px;
+    padding: 12px;
+    padding-top: 0;
+    color: cornsilk;
+    border-radius: 7px;
+}
+
+.current-city {
+    font-size: 1.7rem;
+}
+
+.country {
+    font-size: 1.2rem;
+}
+
+.degree {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.icon {
+    float: left;
+    width: 6rem;
+    margin-top: -20px;
+}
+
+.description {
+    margin: 0;
+    font-size: small;
+}
+
+.others {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    margin-top: -60px;
+}
+
+@media (max-width: 900px) {
+    .weather-component {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 680px) {
+    .weather-component {
+        max-width: 350px;
+    }
+}
+/*
+<p className="degree" >{current}°C</p>
+                <p className="description" >{description}</p>
+                <img className="icon" src={iconUrl} alt={description} />
+                <p className="humidity">Humidity: {humidity}</p>
+                <p className="pressure">Pressure: {pressure} <small>inHg</small></p>
+                <p className="wind">Wind: {wind} <small>km/h</small></p>
+                <p className="feels_like">Feels like: {feelsLike}°C</p>
+                */

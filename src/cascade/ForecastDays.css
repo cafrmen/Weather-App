@@ -1,0 +1,28 @@
+.forecast-component {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.realDay {
+    font-size: .8rem;
+}
+
+.iconDay {
+    width: 1.7rem;
+}
+
+.min-max {
+    font-size: .5rem;
+}
+
+@media (max-width: 900px) {
+    .forecast-component {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 680px) {
+    .forecast-component {
+        min-width: 350px;
+    }
+}

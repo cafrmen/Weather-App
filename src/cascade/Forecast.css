@@ -1,0 +1,25 @@
+.forecast-component {
+    border: 1px solid cornsilk;
+    color: cornsilk;
+    margin: 12px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+.forecast-map {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .forecast-component {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 680px) {
+    .forecast-component {
+        max-width: 350px;
+    }
+}
