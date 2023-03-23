@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const[input, setInput] = useState('');
-  const[city, setCity] = useState('f');
+  const[city, setCity] = useState('kaf');
 
   const handleChange = (e) => setInput(e.target.value);
 
